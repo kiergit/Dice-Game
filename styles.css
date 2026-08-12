@@ -1,0 +1,75 @@
+.container {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+  margin: 20px;
+}
+
+body {
+  background-color: #006E7F;
+}
+
+h1 {
+  margin: 30px;
+  font-family: "Young Serif", serif;
+  text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+  color: #F8CB2E;
+}
+
+p {
+  font-size: 1rem;
+  color: #F8CB2E;
+  font-family: 'Press Start 2P';
+  margin-bottom: 30px;
+}
+
+.flag {
+  width: 10%;
+  text-align: center;
+  display: inline-block;
+  margin: 20px;
+}
+
+.flag1 {
+  display: none;
+}
+
+.flag2 {
+  display: none;
+}
+
+img {
+  width: 80%;
+}
+
+
+/*************** PLAY Button*****************/
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin: 70px;
+}
+
+.btn {
+  background: #FFBF00;
+  border-radius: 8px;
+  font-family: 'Press Start 2P';
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+
+.btn:hover {
+  background: #FF9A00;
+  text-decoration: none;
+}
+
